@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image-login {
+  background-image: url("./assets/img/png/register_bg_2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.bg-blueGray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(30, 41, 59, var(--tw-bg-opacity));
+}
+
+.bg-blueGray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(226, 232, 240, var(--tw-bg-opacity));
+}
